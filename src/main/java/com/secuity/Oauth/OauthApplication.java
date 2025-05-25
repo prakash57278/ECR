@@ -16,6 +16,7 @@ public class OauthApplication {
 	@GetMapping("/yes")
 	public String testing1(){
 		return "yes it is done and it is working!!!!";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(OauthApplication.class, args);
