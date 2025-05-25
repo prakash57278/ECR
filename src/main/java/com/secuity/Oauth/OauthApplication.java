@@ -13,6 +13,10 @@ public class OauthApplication {
 	public String testing(){
 		return "testing";
 	}
+	@GetMapping("/yes")
+	public String testing(){
+		return "yes";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(OauthApplication.class, args);
