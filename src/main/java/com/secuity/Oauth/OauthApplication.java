@@ -15,7 +15,7 @@ public class OauthApplication {
 	}
 	@GetMapping("/yes")
 	public String testing1(){
-		return "yes";
+		return "yes it is done";
 	}
 
 	public static void main(String[] args) {
